@@ -6,7 +6,11 @@ body{
     background-size: cover;
     background-position: 0 60%;
     .hero-img{
-        width: 80%;
+        width: 100%;
+    }
+    h1{
+        font-weight: bold;
+        font-size: 3.5em;
     }
 }
 
@@ -41,5 +45,34 @@ body{
                 font-weight: normal;
             }
         }
+    }
+}
+
+.features{
+    color: #000000;
+}
+
+#newsletter{
+    background: url('../assets/screen1.jpg') no-repeat;
+    background-size: cover;
+
+    h2{
+        font-weight: bold;
+        letter-spacing: 4px;
+    }
+    h4{
+        color: gray;
+    }
+    .form-control{
+        background: #111111;
+        border: 3px solid #2f2f2f;
+        padding: 10px;
+
+    }
+    .btn{
+        color: black;
+        padding: 12px;
+        border: none;
+        cursor: pointer;
     }
 }
